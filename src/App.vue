@@ -4,7 +4,17 @@
         <router-link to="/about">About</router-link>
     </div>
     <router-view />
+    <ThePlayer />
 </template>
+<script>
+import ThePlayer from '@/components/layouts/ThePlayer.vue';
+
+export default {
+    components: {
+        ThePlayer
+    }
+};
+</script>
 
 <style lang="scss">
 #app {
@@ -26,5 +36,10 @@
             color: #42b983;
         }
     }
+}
+
+html,
+body {
+    height: 100%;
 }
 </style>
