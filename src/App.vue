@@ -1,9 +1,13 @@
 <template>
-    <div id="nav">
-        <router-link to="/">Home</router-link> |
-        <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
+    <main class="bg-gray-800 flex divide-x divide-gray-700">
+        <div class="hidden md:block">
+            <div id="nav" class="flex flex-col text-left">
+                <router-link to="/">Home</router-link>
+                <router-link to="/about">Playlists</router-link>
+            </div>
+        </div>
+        <router-view class="w-full"/>
+    </main>
     <ThePlayer />
 </template>
 <script>
@@ -23,6 +27,7 @@ export default {
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
+    height: 100%;
 }
 
 #nav {
@@ -39,7 +44,8 @@ export default {
 }
 
 html,
-body {
+body,
+main {
     height: 100%;
 }
 </style>
