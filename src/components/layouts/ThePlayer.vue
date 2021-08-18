@@ -10,23 +10,57 @@
                         alt="capa album"
                     />
                 </div>
-                <div class="flex flex-col place-content-between md:place-content-stretch py-1 w-full">
-                    <div class="text-left text-gray-400 text-sm md:text-md lg:text-lg xl:text-xl">
-                        <p>Nome musica <span class="text-gray-700">nome album</span></p>
+                <div
+                    class="
+                        flex flex-col
+                        place-content-between
+                        md:place-content-stretch
+                        py-1
+                        w-full
+                    "
+                >
+                    <div
+                        class="
+                            text-left text-gray-400 text-sm
+                            md:text-md
+                            lg:text-lg
+                            xl:text-xl
+                        "
+                    >
+                        <p>
+                            Nome musica
+                            <span class="text-gray-700">nome album</span>
+                        </p>
                     </div>
                     <!-- Player Controllers -->
-                    <div class="flex gap-3 items-between justify-start md:justify-center">
+                    <div
+                        class="
+                            flex
+                            gap-3
+                            items-between
+                            justify-start
+                            md:justify-center
+                        "
+                    >
                         <img
                             src="https://via.placeholder.com/24x24"
                             alt="player volta"
                         />
                         <img
                             src="https://via.placeholder.com/24x24"
-                            alt="player pausa"
+                            alt="player volta 10s"
                         />
                         <img
                             src="https://via.placeholder.com/24x24"
-                            alt="player avança"
+                            alt="player pausa/play"
+                        />
+                        <img
+                            src="https://via.placeholder.com/24x24"
+                            alt="player avança 10s"
+                        />
+                        <img
+                            src="https://via.placeholder.com/24x24"
+                            alt="player volta"
                         />
                     </div>
                 </div>

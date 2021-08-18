@@ -3,10 +3,10 @@
         <div class="hidden md:block">
             <div id="nav" class="flex flex-col text-left">
                 <router-link to="/">Home</router-link>
-                <router-link to="/about">Playlists</router-link>
+                <router-link to="/playlists">Playlists</router-link>
             </div>
         </div>
-        <router-view class="w-full"/>
+        <router-view class="w-full" />
     </main>
     <ThePlayer />
 </template>
